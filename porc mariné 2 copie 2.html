@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Bienvenue Matt, clique ici</title>
+</head>
+<body>
+	<h1>Bienvenue Matt ! Par cet exemple, je te montre tout mon talent en codage. Sous ce lien, tu trouveras une superbe recette de porc mariné à la vietnamienne. <a href="recette.html">clique ici</a></h1>
+
+	<script>
+		// Code JavaScript pour ouvrir la page de la recette dans un nouvel onglet
+		document.querySelector('a').addEventListener('click', function(event) {
+			event.preventDefault();
+			window.open('recette.html', '_blank');
+		});
+	</script>
+</body>
+</html>
